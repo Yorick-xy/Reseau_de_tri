@@ -10,11 +10,15 @@ CONFIG -= app_bundle
 SOURCES += \
         ../shared/qstd.cpp \
         connecteur.cpp \
+        evolutionaryprocess.cpp \
         fil.cpp \
+        gene.cpp \
+        individual.cpp \
         main.cpp \
         misc.cpp \
         myrandom.cpp \
-        parameters.cpp
+        parameters.cpp \
+        reseaudetri.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -24,7 +28,11 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     ../shared/qstd.h \
     connecteur.h \
+    evolutionaryprocess.h \
     fil.h \
+    gene.h \
+    individual.h \
     misc.h \
     myrandom.h \
-    parameters.h
+    parameters.h \
+    reseaudetri.h
