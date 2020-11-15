@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.13.2, 2020-11-15T08:31:36. -->
+<!-- Written by QtCreator 4.13.2, 2020-11-15T11:00:20. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -325,8 +325,9 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/Yorick/Documents/Etudes/Ecole d'Ingénieur/Ynov/4ème Année/IA/Projects/bourin2/bourin2.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/Yorick/Documents/Etudes/Ecole d'Ingénieur/Ynov/4ème Année/IA/Projects/bourin2/bourin2.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">bourin22</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/Yorick/Documents/Etudes/Ecole/Ynov/M1/IA/Projects/bourin2/bourin2.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/Yorick/Documents/Etudes/Ecole/Ynov/M1/IA/Projects/bourin2/bourin2.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
