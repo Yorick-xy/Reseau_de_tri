@@ -7,20 +7,21 @@ class Connecteur
 {
 private:
     int m_position;
-    int m_depuis;
-    int m_vers;
+    int m_depart;
+    int m_arrivee;
 public:
-    Connecteur(int p, int d, int v);
-    Connecteur(int d, int v);
+    Connecteur(int pos, int dep, int arr);
+    Connecteur(int dep, int arr);
     int getPosition() const;
-    int getDepuis() const;
-    int getVers() const;
-    QString toString();
-    void decrementePosition() {m_position--;}
+    int getDepart() const;
+    int getArrivee() const;
+    void setDepart(int depart);
+    void setArrivee(int arrivee);
+    void setPosition(int position);
+    void decrementePosition(){m_position--;}
     static bool lessPositionThan(Connecteur *c1, Connecteur *c2);
     static bool lessDepuisThan(Connecteur *c1, Connecteur *c2);
-    void setDepuis(int depuis);
-    void setVers(int vers);
+    QString toString();
 };
 
 #endif // CONNECTEUR_H

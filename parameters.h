@@ -15,6 +15,7 @@ public:
     static double mutationAddRate;
     static double mutationDeleteRate;
     static double crossoverRate;
+    static double indiceQualite[10];
 
     static MyRandom *randomGenerator;
 

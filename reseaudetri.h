@@ -1,29 +1,23 @@
 #ifndef RESEAUDETRI_H
 #define RESEAUDETRI_H
 
-#include "connecteur.h"
+#include <QString>
 #include <QList>
+#include "connecteur.h"
 
-class ReseauDeTri : public QList<Connecteur *>
+class ReseauDeTri
 {
 private:
-    int m_nbFils;
-    QList<int> m_valDep, m_valFin;
+    int m_nbFil;
 public:
-    ReseauDeTri(int nb);
-    void ajouteConnecteur(int p, int d, int v);
-    void ajouteConnecteur(int d, int v);
-    void ajouteConnecteur(Connecteur *c);
+    ReseauDeTri(int fil);
+    int getNbFil() const;
+    void setNbFil(int nbFil);
+    void ajouteConnecteur(int pos, int dep, int arr);
+    void ajouteConnecteur(Connecteur *connecteur);
+    static void trieBulle();
     QString toString();
-    int getPosMax();
-    ReseauDeTri getConnecteurs(int pos);
-    QList<int> injecte(QList<int> &valeurs);
-    bool testZeroUn();
-    int testZeroUnVal();
-    void parallele();
-    int getNbFils() const;
-    QList<int> getValDep() const;
-    QList<int> getValFin() const;
+
 };
 
 #endif // RESEAUDETRI_H
